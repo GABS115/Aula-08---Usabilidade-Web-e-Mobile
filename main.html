@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Postagem</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/scripts.js"></script>
+
+</head>
+<body>
+     <div>
+         <h1>Cadastrar Postagem</h1>
+    </div>
+
+    <div>
+        <input placeholder="Título"  id="input-title">
+        <br>
+        <br>
+        <input placeholder="Corpo"  id="input-body">
+        <br>
+        <br>
+        <input placeholder="Id do Usuário" id="input-user-id" type="number">
+        <br>
+        <br>
+    </div>
+        
+    <div>
+         <button ondblclick="savePost()" class="btn-btn-dark">Salvar</button>
+    </div>
+    <br>
+    <div>
+        <button ondblclick="updatePost()" class="btn-btn-dark">Atualizar</button>
+   </div>
+   <br>
+   <div>
+    <button ondblclick="deletePost()" class="btn-btn-dark">Remover</button>
+</div>
+</body>
+</html>
